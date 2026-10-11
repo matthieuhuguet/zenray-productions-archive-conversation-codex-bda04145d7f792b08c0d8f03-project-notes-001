@@ -1,0 +1,45 @@
+# conversation-codex-bda04145d7f792b08c0d8f03 : project feedback, append only (11 October 2026, 13:56:46 +0200)
+
+## 11 October 2026, 13:56:46 +0200 : Log
+
+<!-- feedback-event:b2027d7b5390648404deb02f636b21664bd550273436927f8d7e1418edbee99f (11 October 2026, 13:56:46 +0200) -->
+- Project: conversation-codex-bda04145d7f792b08c0d8f03; kind: log. (11 October 2026, 13:56:46 +0200)
+
+> Project initialized: Blender procedural texturing comparison. Workshop: /Users/zenray/.claude/tmp/tmp-conversation-codex-bda04145d7f792b08c0d8f03. (11 October 2026, 13:56:46 +0200)
+
+## 11 October 2026, 13:56:32 +0200 : Prompt
+
+<!-- feedback-event:058500f1a9d43df0a7abdbc394c1ccfaf4160d080bf36af34ae6714f4a806255 (11 October 2026, 13:56:32 +0200) -->
+- Project: conversation-codex-bda04145d7f792b08c0d8f03; kind: prompt. (11 October 2026, 13:56:32 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/11/rollout-2026-10-11T13-56-31-01a12ad2-5a97-7ce2-9df7-044b2c43bb67.jsonl. (11 October 2026, 13:56:32 +0200)
+
+> Est ce que blender à un outil de texturation procédural au moins aussi puissant que copernicus ou substance designer ? (11 October 2026, 13:56:32 +0200)
+
+## 11 October 2026, 13:57:25 +0200 : Iteration
+
+<!-- feedback-event:75a6c935c9eba1ee0a9b8af919277ffdeb130c326307a9b8ebfc21bd2a618d64 (11 October 2026, 13:57:25 +0200) -->
+- Project: conversation-codex-bda04145d7f792b08c0d8f03; kind: iteration. (11 October 2026, 13:57:25 +0200)
+- Source: checkpoint:codex:01a12ad2-5a97-7ce2-9df7-044b2c43bb67. (11 October 2026, 13:57:25 +0200)
+
+> 11 October 2026 : documentation officielle Blender, SideFX et Adobe consultee. Blender Shader Editor et baking distingues des graphes de fabrication de textures de Copernicus et Designer. Comparaison documentaire, aucun benchmark. Prochain : repondre selon usage materiau Blender ou textures exportables. (11 October 2026, 13:57:25 +0200)
+
+## 11 October 2026, 13:57:48 +0200 : Iteration
+
+<!-- feedback-event:7f173be62101b34affc8935d1b4a54d0a178bcd3aee7aff45e1f3822c6619564 (11 October 2026, 13:57:48 +0200) -->
+- Project: conversation-codex-bda04145d7f792b08c0d8f03; kind: iteration. (11 October 2026, 13:57:48 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/11/rollout-2026-10-11T13-56-31-01a12ad2-5a97-7ce2-9df7-044b2c43bb67.jsonl. (11 October 2026, 13:57:48 +0200)
+
+> **Blender possède une texturation procédurale très puissante, mais son outil natif n’est pas un équivalent complet de Copernicus ou de Substance Designer.** La différence tient surtout à ce que le graphe produit. (11 October 2026, 13:57:48 +0200)
+>
+> Dans Blender, le **Shader Editor** calcule un matériau directement sur l’objet : motifs, couleurs, rugosité, relief, transparence. Ses textures procédurales permettent de construire des matériaux complexes, parfois sans images ni dépliage UV. Pour un matériau destiné à être rendu dans Blender, ce système peut parfaitement suffire. [Documentation Blender](https://docs.blender.org/manual/en/5.2/render/shader_nodes/textures/index.html) (11 October 2026, 13:57:48 +0200)
+>
+> **Designer et Copernicus travaillent davantage comme des ateliers de fabrication d’images.** Tu construis des formes et des masques, tu les déformes, tu traites leurs contours et leurs régions, puis tu produis les différentes cartes du matériau. Designer propose notamment des outils spécialisés comme *Flood Fill*, qui distingue les régions d’un motif, ou *Slope Blur*, utile pour abîmer des contours. SideFX documente directement les correspondances de ces opérations dans Copernicus. [Adobe](https://www.adobe.com/learn/substance-3d-designer/web/create-edge-damage), [SideFX](https://www.sidefx.com/docs/houdini/copernicus/substance_designer.html) (11 October 2026, 13:57:48 +0200)
+>
+> Blender peut convertir ses matériaux procéduraux en images par **baking**, c’est-à-dire enregistrer le résultat sur une texture. Cela ajoute cependant une étape avec un objet, des UV et des images cibles. Son Compositor fournit aussi du traitement d’image, mais l’ensemble ne constitue pas un atelier de matériaux aussi spécialisé. Cette dernière appréciation découle de leurs workflows documentés, sans benchmark comparatif. [Baking Blender](https://docs.blender.org/manual/id/5.2/render/cycles/baking.html) (11 October 2026, 13:57:48 +0200)
+>
+> **Pour ton exercice de tuiles, où tu construis une carte de hauteur puis dérives les autres textures, Copernicus ou Designer offrent donc un cadre plus direct.** Blender reste capable d’obtenir un résultat comparable visuellement ; cela ne signifie pas qu’il dispose des mêmes opérations ni du même confort pour le construire. (11 October 2026, 13:57:48 +0200)
+>
+> | Ce que tu demandes | Réponse | Ce qui permet de le vérifier | (11 October 2026, 13:57:48 +0200)
+> |---|---|---| (11 October 2026, 13:57:48 +0200)
+> | Blender possède un outil procédural puissant ? | Oui | Matériaux par nœuds et export par baking documentés | (11 October 2026, 13:57:48 +0200)
+> | Au moins aussi complet pour fabriquer des textures ? | Partiel | Workflow différent ; outils spécialisés dans Designer et Copernicus | (11 October 2026, 13:57:48 +0200)
